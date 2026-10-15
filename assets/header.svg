@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+<title id="title">M. Abdullah — AI, computer vision and full-stack web development</title>
+<desc id="desc">A dark technical canvas with mint and amber accents. An animated signal connects ideas, models and useful applications.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#142a35"/></linearGradient>
+ <linearGradient id="accent"><stop stop-color="#5ee6bd"/><stop offset="1" stop-color="#8cebf3"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#78b5bf" stroke-opacity=".07"/></pattern>
+ <radialGradient id="halo"><stop stop-color="#3ce2b2" stop-opacity=".14"/><stop offset="1" stop-color="#3ce2b2" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="410" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="410" rx="24" fill="url(#grid)"/>
+<circle cx="987" cy="170" r="220" fill="url(#halo)"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+ <rect x="48" y="40" width="223" height="28" rx="14" fill="#5ee6bd" fill-opacity=".1" stroke="#5ee6bd" stroke-opacity=".3"/>
+ <circle cx="65" cy="54" r="4" fill="#5ee6bd"/>
+ <text x="79" y="59" font-size="11" letter-spacing="1.7" fill="#8debd1">BUILD · EXPERIMENT · SHIP</text>
+ <text x="46" y="158" font-size="70" font-weight="750" letter-spacing="-3" fill="#f0f7fc">M. Abdullah<tspan fill="#5ee6bd">.</tspan></text>
+ <text x="49" y="205" font-size="22" fill="#b2c9d8">AI &amp; computer vision. Full-stack web.</text>
+ <text x="49" y="249" font-size="17" fill="#87a4b6">Turning ideas into applications you can actually use.</text>
+ <g font-size="12" font-weight="600">
+  <rect x="48" y="283" width="90" height="31" rx="7" fill="#203746"/><text x="69" y="303" fill="#d5e8f3">PYTHON</text>
+  <rect x="148" y="283" width="93" height="31" rx="7" fill="#203746"/><text x="168" y="303" fill="#d5e8f3">AI / ML</text>
+  <rect x="251" y="283" width="104" height="31" rx="7" fill="#203746"/><text x="269" y="303" fill="#d5e8f3">WEB APPS</text>
+ </g>
+ <text x="49" y="365" font-family="Consolas,monospace" font-size="13" fill="#7897aa"><tspan fill="#5ee6bd">$</tspan> idea → build → test → improve<tspan fill="#ffbd7a"> ▍<animate attributeName="opacity" values="1;0;1" dur="1.6s" repeatCount="indefinite"/></tspan></text>
+ <g transform="translate(760 71)">
+  <rect width="384" height="261" rx="16" fill="#0c1824" stroke="#385769"/>
+  <path d="M0 41H384" stroke="#294353"/>
+  <circle cx="22" cy="21" r="4" fill="#ffbd7a"/><circle cx="38" cy="21" r="4" fill="#5ee6bd"/><circle cx="54" cy="21" r="4" fill="#63869a"/>
+  <text x="76" y="25" font-size="11" fill="#87a4b6" font-family="Consolas,monospace">abdullah / building</text>
+  <path id="signal" d="M55 105H180V183H322" fill="none" stroke="#315466" stroke-width="2"/>
+  <circle r="4" fill="#5ee6bd"><animateMotion dur="4s" repeatCount="indefinite" path="M55 105H180V183H322"/></circle>
+  <rect x="25" y="77" width="96" height="58" rx="10" fill="#173b3a" stroke="#3b8d7a"/>
+  <text x="45" y="101" font-size="10" fill="#7de3c7">01 / INPUT</text><text x="45" y="120" font-size="13" fill="#eff9f6">An idea</text>
+  <rect x="155" y="77" width="97" height="58" rx="10" fill="#1a2c40" stroke="#426987"/>
+  <text x="174" y="101" font-size="10" fill="#94cbf2">02 / BUILD</text><text x="174" y="120" font-size="13" fill="#eff5fb">The model</text>
+  <rect x="225" y="156" width="131" height="58" rx="10" fill="#3b3025" stroke="#8a6b43"/>
+  <text x="245" y="180" font-size="10" fill="#ffbd7a">03 / DELIVER</text><text x="245" y="199" font-size="13" fill="#fff6ed">A useful app</text>
+  <text x="26" y="238" font-size="11" fill="#7999aa">Learning in public. Improving with every build.</text>
+ </g>
+</g>
+</svg>
